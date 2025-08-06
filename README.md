@@ -1,4 +1,4 @@
-#modified streamlit-pagination
+# modified streamlit-pagination
 ---
 <b>orginal component:</b> [Socvest/streamlit-pagination](https://github.com/Socvest/streamlit-pagination.git)
 
