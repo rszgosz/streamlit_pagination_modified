@@ -4,9 +4,11 @@
 
 You need to import the style file which adjusts the size of the iframe - it can be found [here](https://github.com/Socvest/streamlit-pagination/tree/main/streamlit_pagination).
 
+
 <b>Modifications:</b> 
 - Updated component styling to automatically adapt to Streamlit's active theme (light/dark mode)
 - Added a stateful `default` parameter to prevent resetting on reruns
+
 
 <b>Installation:</b>
 - Directly from terminal:
@@ -24,8 +26,9 @@ cd streamlit_pagination_modified
 pip install -e .
 ```
 
-<b>variables:</b>
-- dataLength: length of data that will be displayed (rows/index)
-- layout: dictionary variable to determine what the layout of the mui component will look like including the style
-- default: (optional) initial page number to display when the component first renders(default=1).
+
+<b>Variables:</b>
+- `dataLength`: length of data that will be displayed (rows/index)
+- `layout`: dictionary variable to determine what the layout of the mui component will look like including the style
+- `default`: (optional) initial page number to display when the component first renders(default=1).
 
