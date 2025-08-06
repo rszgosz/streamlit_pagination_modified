@@ -1,19 +1,19 @@
-# modified streamlit-pagination
+# Modified streamlit-pagination
 ---
-<b>orginal component:</b> [Socvest/streamlit-pagination](https://github.com/Socvest/streamlit-pagination.git)
+<b>Orginal Component:</b> [Socvest/streamlit-pagination](https://github.com/Socvest/streamlit-pagination.git)
 
 You need to import the style file which adjusts the size of the iframe - it can be found [here](https://github.com/Socvest/streamlit-pagination/tree/main/streamlit_pagination).
 
-<b>modifications:</b> 
+<b>Modifications:</b> 
 - Updated component styling to automatically adapt to Streamlit's active theme (light/dark mode)
 - Added a stateful `default` parameter to prevent resetting on reruns
 
-<b>to install it:</b>
-1. directly from terminal:
+<b>Installation:</b>
+- Directly from terminal:
 ```
 pip install git+https://github.com/rszgosz/streamlit_pagination_modified.git
 ```
-or install it manually:
+- Install it manually:
 ```
 git clone https://github.com/rszgosz/streamlit_pagination_modified.git
 ```
