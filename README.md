@@ -30,5 +30,5 @@ pip install -e .
 <b>Variables:</b>
 - `dataLength`: length of data that will be displayed (rows/index)
 - `layout`: dictionary variable to determine what the layout of the mui component will look like including the style
-- `default`: (optional) initial page number to display when the component first renders(default=1).
+- `default`: (optional) initial page number to display when the component first renders (default=1).
 
