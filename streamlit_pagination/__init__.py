@@ -13,9 +13,9 @@ else:
     build_dir = os.path.join(parent_dir, "frontend/build")
     _pagination_component = components.declare_component("pagination_component", path=build_dir)
 
-def pagination_component(dataLength, layout, key=None):
-    
-    component_value = _pagination_component(dataLength=dataLength, layout=layout, key=key, default=0)
+def pagination_component(dataLength, layout, key=None, default=0):
+
+    component_value = _pagination_component(dataLength=dataLength, layout=layout, key=key, default=default)
 
     return component_value
 
